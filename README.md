@@ -1,7 +1,7 @@
 ## Webpackでウェブサイト制作のHTML/CSS/JSコーディングを一気に効率化する実践講座 (Mac / Win)
 
 <details>
-<summary>セクション3: Webpack入門</summary>
+<summary>セクション3: Webpack入門 </summary>
 
 | NO | 内容 |
 | ---- | ---- |
@@ -17,7 +17,7 @@
 </details>
 
 <details>
-<summary>セクション4: Webpackの設定ファイルとLoader</summary>
+<summary>セクション4: Webpackの設定ファイルとLoader </summary>
 
 | NO | 内容 |
 | ---- | ---- |
@@ -31,7 +31,7 @@
 </details>
 
 <details>
-<summary>セクション5: </summary>
+<summary>セクション5: Webpackのプラグイン </summary>
 
 | NO | 内容 |
 | ---- | ---- |
@@ -41,14 +41,26 @@
 | 35. | テキスト版教材 |
 
 </details>
-<summary>セクション6: </summary>
+<summary>セクション6: ファイル構成を整える </summary>
 
 | NO | 内容 |
 | ---- | ---- |
 | 36. | 不要なファイルを自動的に削除する |
 | 37. | 設定ファイルを変更してファイル構成をカスタマイズ |
 | 38. | src と dist のファイル構成に一貫性を持たせる |
-<!-- | 39. | ファイル名を変更してさらにメンテナンス性を向上させる |
-| 40. | テキスト版教材 | -->
+| 39. | ファイル名を変更してさらにメンテナンス性を向上させる |
+| 40. | テキスト版教材 |
+
+</details>
+
+<summary>セクション7: 画像の読み込み </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 41. | url-loaderを利用した画像読み込み |
+| 42. | file-loaderを利用した画像読み込み |
+| 43. | file-loaderのnameに使えるオプション |
+| 44. | Webpack 5 の Asset Modules を使う |
+| 45. | テキスト版教材 | -->
 
 </details>
