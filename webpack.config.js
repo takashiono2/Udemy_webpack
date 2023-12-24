@@ -18,14 +18,26 @@ module.exports = {
             'css-loader',
         ],
       },
+      {
+        test: /\.(png|jpg)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              esModule: false,
+            }
+          },
+        ],
+      },
     ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '../stylesheets/main.css',
+      filename: './stylesheets/main.css',
     }),
     new HtmlWebpackPlugin({
       template: './src/templates/index.html',
+      filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
   ],

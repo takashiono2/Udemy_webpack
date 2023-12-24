@@ -57,8 +57,8 @@
 
 | NO | 内容 |
 | ---- | ---- |
-<!-- | 41. | url-loaderを利用した画像読み込み |
-| 42. | file-loaderを利用した画像読み込み |
+| 41. | url-loaderを利用した画像読み込み |
+<!-- | 42. | file-loaderを利用した画像読み込み |
 | 43. | file-loaderのnameに使えるオプション |
 | 44. | Webpack 5 の Asset Modules を使う |
 | 45. | テキスト版教材 | -->
