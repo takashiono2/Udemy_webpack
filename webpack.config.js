@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+  devServer: {
+    static: path.resolve(__dirname, 'src'),
+  },
   entry: './src/javascripts/main.js',
   output: {
     path: path.resolve(__dirname,'./dist'),
@@ -61,6 +64,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/templates/access.pug',
       filename: 'access.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/members/taro.pug',
+      filename: 'members/taro.html'
     }),
     new CleanWebpackPlugin(),
   ],

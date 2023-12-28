@@ -79,12 +79,12 @@
 <details>
 <summary> セクション9: ローカルサーバーを利用した開発 </summary>
 
-<!-- | NO | 内容 |
+| NO | 内容 |
 | ---- | ---- |
 | 52. | ローカルサーバーのメリット |
 | 53. | Live Reloadに関する注意点 |
 | 54. | webpack-dev-serverのインストール |
 | 55. | webpack-dev-serverに関するTips |
-| 56. | テキスト版教材 | -->
+| 56. | テキスト版教材 |
 
 </details>
