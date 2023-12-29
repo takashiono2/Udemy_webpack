@@ -15,10 +15,23 @@ module.exports = {
   module:{
     rules: [
       {
-        test: /\.css$/,
+        test: /\.js/,
+        exclude: /node-modules/,
+        use:[
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(css|sass|scss)$/,
         use: [
             MiniCssExtractPlugin.loader,
             'css-loader',
+            'sass-loader'
         ],
       },
       {

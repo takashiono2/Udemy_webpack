@@ -88,3 +88,56 @@
 | 56. | テキスト版教材 |
 
 </details>
+<details>
+<summary> セクション10: 効率的なCSSの制作方法 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| 57 | sass-loaderのインストールと設定方法 |
+| 58 | Sassの機能紹介 |
+| 59 | テキスト版教材 |
+
+</details>
+<details>
+<summary> セクション11: ES6 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| 60 | ES6とは |
+| 61 | Babelバージョンのアップデート |
+| 62 | Babelを使ってES6をトランスパイルする |
+| 63 | 対象ブラウザを指定してトランスパイルする |
+| 64 | テキスト版教材 |
+
+</details>
+<details>
+<summary> セクション12: コードのデバッグ方法 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 65 | Javascriptのソースマップ |
+| 66 | Sassのソースマップ |
+| 67 | modeオプションとpackage.jsonのコマンド管理 |
+| 68 | テキスト版教材 | -->
+
+</details>
+<details>
+<summary> セクション13: 画像の最適化 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 69 | image-webpack-loaderで画像を自動的に圧縮 |
+| 70 | テキスト版教材 | -->
+
+</details>
+<details>
+<summary> セクション14: Reactのビルド設定 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 71 | BabelのPresetとReactのインストール |
+| 72 | Reactのコンポーネントを作成してみる |
+| 73 | テキスト版教材 | -->
+
+</details>
+
