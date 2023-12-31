@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
+  devtool: 'source-map',
   devServer: {
     static: path.resolve(__dirname, 'src'),
   },
@@ -29,9 +31,16 @@ module.exports = {
       {
         test: /\.(css|sass|scss)$/,
         use: [
-            MiniCssExtractPlugin.loader,
-            'css-loader',
-            'sass-loader'
+          { loader: MiniCssExtractPlugin.loader },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: false,
+            }
+          },
+          {
+            loader: 'sass-loader',
+          },
         ],
       },
       {
