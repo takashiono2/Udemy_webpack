@@ -126,8 +126,8 @@
 
 | NO | 内容 |
 | ---- | ---- |
-<!-- | 69 | image-webpack-loaderで画像を自動的に圧縮 |
-| 70 | テキスト版教材 | -->
+| 69 | image-webpack-loaderで画像を自動的に圧縮 |
+| 70 | テキスト版教材 |
 
 </details>
 <details>
@@ -135,9 +135,20 @@
 
 | NO | 内容 |
 | ---- | ---- |
-<!-- | 71 | BabelのPresetとReactのインストール |
+| 71 | BabelのPresetとReactのインストール |
 | 72 | Reactのコンポーネントを作成してみる |
-| 73 | テキスト版教材 | -->
+| 73 | テキスト版教材 |
 
 </details>
+<details>
+<summary> セクション16: Typescriptのビルド設定 </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 77 | ts-loaderのインストールとTypescriptの設定ファイル |
+| 78 | ReactコンポーネントをTypescriptで書いてみる |
+| 79 | テキスト版教材 | -->
+
+</details>
+
 
