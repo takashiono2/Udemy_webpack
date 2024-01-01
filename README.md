@@ -145,9 +145,9 @@
 
 | NO | 内容 |
 | ---- | ---- |
-<!-- | 77 | ts-loaderのインストールとTypescriptの設定ファイル |
+| 77 | ts-loaderのインストールとTypescriptの設定ファイル |
 | 78 | ReactコンポーネントをTypescriptで書いてみる |
-| 79 | テキスト版教材 | -->
+| 79 | テキスト版教材 |
 
 </details>
 
